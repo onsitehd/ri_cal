@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 Gem::Specification.new do |spec|
   spec.name = %q{ri_cal}
   spec.version = "0.8.8"
-
+  spec.required_ruby_version = ">= 2.6.0"
   spec.required_rubygems_version = Gem::Requirement.new(">= 0") if spec.respond_to? :required_rubygems_version=
   spec.authors = ["Rick DeNatale"]
   spec.date = %q{2011-02-13}
@@ -40,6 +40,6 @@ A Google group for discussion of this library has been set up http://groups.goog
   spec.add_dependency "tzinfo", "> 2.0"
 
   spec.add_development_dependency "bundler"
-  spec.add_development_dependency "rake", "< 10.0"
+  spec.add_development_dependency "rake", ">= 12.3.3"
   spec.add_development_dependency "rspec", "< 3.0"
 end
