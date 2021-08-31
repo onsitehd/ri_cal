@@ -40,6 +40,6 @@ A Google group for discussion of this library has been set up http://groups.goog
   spec.add_dependency "tzinfo", "> 2.0"
 
   spec.add_development_dependency "bundler"
-  spec.add_development_dependency "rake", "< 10.0"
+  spec.add_development_dependency "rake", "< 14.0"
   spec.add_development_dependency "rspec", "< 3.0"
 end
